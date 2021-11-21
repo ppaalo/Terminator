@@ -1,0 +1,1 @@
+module.exports = (max = 0, min = 0) => Math.floor((max * Math.random()) + min);

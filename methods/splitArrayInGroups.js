@@ -1,0 +1,5 @@
+module.exports = (array, length) => {
+	const groups = [];
+	for (let i = 0; i < array.length; i += length) { groups.push(array.slice(i, (i + length))); }
+	return groups;
+};
